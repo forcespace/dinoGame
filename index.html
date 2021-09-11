@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Point to enter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+</header>
+<section>
+    <div class="b-canvas">
+        <div class="b-canvas__wrapper">
+            <canvas class="b-canvas__model" height="600" width="800" id="canvas-dinosaur"></canvas>
+            <audio id="canvas-audio" loop>
+                <source src="sounds/main.mp3" type="audio/mpeg">
+            </audio>
+            <video class="b-canvas__video" id="canvas-video" controls autoplay="autoplay" onended="videoStop()">
+                <source src="videos/dino_run.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</section>
+<footer>
+</footer>
+<script src="script/jquery.js"></script>
+<script src="script/script.js"></script>
+<script src="script/canvas-dinosaur.js"></script>
+</body>
+</html>

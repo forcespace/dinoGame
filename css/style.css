@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    overflow-X: hidden;
+}
+
+.b-canvas
+{
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 50px;
+    background: url("../image/main-background.jpg");
+    background-size: cover;
+}
+
+.b-canvas__wrapper
+{
+    position: relative;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.b-canvas__model
+{
+    border: 1px solid rgba(255, 152, 64, 0.97);
+    box-shadow: 0 0 4px 2px rgba(255, 152, 64, 0.97);
+}
+
+.b-canvas__video
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    width: 100%;
+    opacity: 0;
+}
+
+.b-canvas__video_active
+{
+    visibility: visible;
+    opacity: 1;
+}
